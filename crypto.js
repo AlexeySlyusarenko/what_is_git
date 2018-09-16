@@ -1,3 +1,5 @@
 function crypto(a) {
-    return a * a;
+    let b = 10;
+
+    return a * a / b;
 }
