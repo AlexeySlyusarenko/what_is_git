@@ -1,5 +1,5 @@
-function checkPerson(name) {
-    if (name != '') return true;
+function checkPerson(name, nameTest) {
+    if (name === nameTest) return true;
 
     return false;
 }
