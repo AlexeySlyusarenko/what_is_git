@@ -1,5 +1,6 @@
 function checkPerson(name) {
-    if (name != '/regexp') return true;
+    let regexp;
+    if (name != regexp) return true;
 
     return false;
 }
