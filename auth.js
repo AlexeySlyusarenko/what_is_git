@@ -1,5 +1,5 @@
-function auth(nameTest, nameTrue) {
-    if (nameTest === nameTrue) return true;
+function auth(nameTest, nameCurrent) {
+    if (nameTest === nameCurrent) return true;
 
     return false;
 }
